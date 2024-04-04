@@ -8,7 +8,20 @@ const urbanist = Urbanist({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Mombolo's URL Shortener",
-  description: "A simple URL shortener built with Next.js",
+  description:
+    "A simple URL shortener built with Next.js, Typescript, and Supabase",
+  openGraph: {
+    title: "Mombolo's URL Shortener",
+    description:
+      "A simple URL shortener built with Next.js, Typescript, and Supabase",
+    type: "website",
+    url: "https://url.prani.tech",
+    images: [
+      {
+        url: "/momboloLogo.webp",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
