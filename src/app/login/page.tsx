@@ -78,7 +78,7 @@ export default function Page() {
       </a> */}
       <div className="flex flex-col min-h-screen items-center justify-center w-full">
         <h1 className="text-2xl md:text-5xl font-semibold mb-14">
-          Login to Mombolo's URL Shortner
+          Login to Mombolo&apos;s URL Shortner
         </h1>
         <Button
           className="px-[5rem] h-[4rem] text-xl font-normal"
